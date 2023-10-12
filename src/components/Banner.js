@@ -53,7 +53,6 @@ export const Banner = () => {
         <Row className="aligh-items-center mb-5">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility className="">
-              {({ isVisible }) =>
               <div className="text_and_social">
                 <h1> <span className="banner_title1">{`Hi! I'm AGHBAL Othmane`}</span>
                 <br/>
@@ -65,15 +64,14 @@ export const Banner = () => {
                     <a href="mailto:aghbal.othmane9@gmail.com" ><span><SiGmail /></span></a>
                     <a href="https://www.instagram.com/othmane_aghbal/" target="_blank"><span><SiInstagram /></span></a>
                   </div>
-              </div>}
+              </div>
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className="animate__animated animate__zoomIn">
                   <img src={headerImg} alt="Header Img"/>
-                </div>}
+                </div>
             </TrackVisibility>
           </Col>
         </Row>

@@ -66,9 +66,8 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn shadow">
                         <h2>Skills</h2>
-                        <Row lg={2} md={1} sm={1} >
-                          <Col sm={1}>
-                            <div className='border border-1'>
+                        <Row lg={2} md={2} sm={1}  >
+                          <Col sm={20} className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                                 Programming Langages
                               </div>
@@ -81,10 +80,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiCplusplus/></li>
                                 <li className='list-inline-item'><SiPython /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className='border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                                 Frameworks
                               </div>
@@ -98,10 +95,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiIonic /></li>
                                 <li className='list-inline-item'><SiNextdotjs /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className='border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                                 Design
                               </div>
@@ -109,10 +104,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiAdobeillustrator /></li>
                                 <li className='list-inline-item'><SiCanva /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className='border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                                 Database
                               </div>
@@ -120,10 +113,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiMysql /></li>
                                 <li className='list-inline-item'><SiFirebase /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className=' border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                                 Tools
                               </div>
@@ -136,10 +127,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiGithub /></li>
                                 <li className='list-inline-item'><SiIntellijidea /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className=' border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                               CMS
                               </div>
@@ -147,10 +136,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiWix /></li>
                                 <li className='list-inline-item'><SiWordpress /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className=' border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                               Markup Langages
                               </div>
@@ -158,10 +145,8 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiHtml5 /></li>
                                 <li className='list-inline-item'><SiCss3 /></li>
                               </ul>
-                            </div>
                           </Col>
-                          <Col sm={1}>
-                          <div className=' border border-1'>
+                          <Col sm={20}  className=' border border-1'>
                               <div className='title_skill py-2 fs-5'>
                               Office Tools
                               </div>
@@ -170,7 +155,6 @@ export const Skills = () => {
                                 <li className='list-inline-item'><SiMicrosoftpowerpoint /></li>
                                 <li className='list-inline-item'><SiMicrosoftexcel /></li>
                               </ul>
-                            </div>
                           </Col>
                         </Row>
                     </div>
