@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
-import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -48,7 +47,7 @@ export const NavBar = () => {
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text ms-auto d-flex justify-content-center">
-                <a  href="https://www.linkedin.com/in/othmane-aghbal-2150141b0/" target="_blank"><button ><span>My LinkedIn</span></button></a>
+                <a  href="" download="AGHBAL_OTHMANE_CV.pdf"><button ><span>My Resume (Fr)</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>

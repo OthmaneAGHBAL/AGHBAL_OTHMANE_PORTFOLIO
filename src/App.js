@@ -7,10 +7,12 @@ import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 import { Formation } from './components/Formation';
 import { Citation } from './components/Citation';
+import { Bubbles } from './components/Bubbles';
 
 function App() {
   return (
     <div className="App">
+      <Bubbles/>
       <NavBar />
       <Banner />
       <Skills />
